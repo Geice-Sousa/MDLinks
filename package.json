@@ -10,12 +10,12 @@
     "commit": "ffa75c8b2bede153844195479abeff01f3e34227"
   },
   "dependencies": {
-    "chalk": "^5.2.0",
+    "boxen": "^4.1.0",
+    "chalk": "^4.1.2",
     "eslint": "^8.39.0",
     "jest": "^29.5.0"
   },
   "scripts": {
-    "start": "",
     "test": "jest"
   }
 }
