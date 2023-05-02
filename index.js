@@ -1,14 +1,14 @@
 // aqui vai ficar a função mdLinks(path, options) , não precisa chamar function, funciona como um objeto
+const fs = require('fs');
 
-function getInfos(string, archive){
+exports.getInfos = (string, file)=>{
   const contentInfos = string.split('](');
   const text = contentInfos[0].replace('[', '');
   const href = contentInfos[1].replace(')', '');
-  console.log({ href, text, archive }) // se dou return não aparece as infos
+  return { href, text, file } // se dou return não aparece as infos
 };
 
-module.exports.mdLinks = (pathFile)=>{
-  const fs = require('fs');
+exports.mdLinks = (pathFile)=>{
   const regEx = /\[[^\]]+\]\(([^)]+)\)/gm; // gm para pegar varias linhas
   return new Promise ((resolve, reject)=>{
     fs.readFile(pathFile, 'utf-8', (error, data)=>{

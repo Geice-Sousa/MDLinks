@@ -1,7 +1,10 @@
 {
   "name": "md-links",
   "version": "0.1.0",
-  "engines": {
+  "description": "api para identificar links em arquivos markdown, irá informar se o link esta funcionando ou quebrado",
+  "keywords": ["node", "api", "links", "markdown"],
+  "homepage": "https://github.com/Geice-Sousa/MDLinks",
+    "engines": {
     "node": ">=16.x"
   },
   "bootcamp": {
@@ -9,13 +12,22 @@
     "version": "5.6.0",
     "commit": "ffa75c8b2bede153844195479abeff01f3e34227"
   },
+  "bin": {
+    "md-links": "./cli.js"
+  },
   "dependencies": {
     "boxen": "^4.1.0",
     "chalk": "^4.1.2",
+    "commander": "^10.0.1",
     "eslint": "^8.39.0",
     "jest": "^29.5.0"
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "author": {
+    "name": "Geice Sousa Pinho",
+    "url": "https://github.com/Geice-Sousa"
+  },
+  "license" : "ISC"
 }
