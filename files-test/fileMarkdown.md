@@ -1,6 +1,6 @@
 ## O Markdown para extrair os links poderia ser criado das seguintes maneiras (todas são válidas):
 
-* Usando um _módulo_ como [markdown-it](https://github.com/markdown-it/markdown-it), que nos devolve um array de _tokes_ que utilizamos para identificar os links.
+* Usando um _módulo_ como [markdown-it](https://github.com/markdon-it/markdown-ito), que nos devolve um array de _tokes_ que utilizamos para identificar os links.
 
 * Seguindo outro caminho, poderíamos usar [expressões regulares
   (`RegExp`)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions).
@@ -10,4 +10,4 @@
   biblioteca de DOM como [JSDOM](https://github.com/jsdom/jsdom) o
   [Cheerio](https://github.com/cheeriojs/cheerio)).
 
-* Usando um _custom renderer_ de [marked](https://github.com/markedjs/marked) (`new marked.Renderer()`).
+* Usando um _custom renderer_ de [marked](https://github.com/markedjs/marked/) (`new marked.Renderer()`).
