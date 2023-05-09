@@ -12,7 +12,7 @@ describe('getInfos', () => {
     const infos = getInfos(string, file);
 
     expect(infos).toEqual({ href, text, file });
-  })
+  });
 });
 
 describe('mdLinks', ()=>{
@@ -27,8 +27,8 @@ describe('mdLinks', ()=>{
 
     expect(readFile).toBeCalledTimes(1); // tem que limpar pra qndo for fazer o erro chamar 1x só tbm
     expect(readFile).toBeCalledWith(file, "utf-8", cb); // ou podemos usar o expect.any(Function)
-  })
-})
+  });
+});
 
 // deveria pegar um arquivo, extrair os dados de link de um texto e mostrar ou não
 // deveria extrair os dados de link de um texto

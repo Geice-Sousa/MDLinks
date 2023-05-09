@@ -10,8 +10,6 @@
         
     }
     
-    pag 15 a 18
-
     VER
         // enable additional rules
         "indent": ["error", 4], indentaçã
@@ -39,3 +37,10 @@
         "init-declarations": "off",
         "no-console": "off",
         "no-inline-comments": "off",
+
+----
+// ESLINT CONFIS
+// "eslint": "eslint --ext .js src/ test/",
+// "eslint": ou "eslint --fix --ext .js src/ test/",
+//     "stylelint": "stylelint --aei src/**/*.css",
+//     "pretest": "npm run htmlhint && npm run eslint && npm run stylelint",

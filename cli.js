@@ -1,5 +1,6 @@
 #!/usr/bin/env node 
 //^^informa que o arq é pra ser interpretado por node, podia ser bash
+
 const { mdLinks } = require('./index.js');
 const chalk = require('chalk');
 const boxen = require('boxen');
@@ -7,11 +8,11 @@ const path = require('path');
 // './files-test/fileMarkdown.md'
 // console.log(__dirname) // diretorio
 // console.log(__filename)
- 
+
 const options = {
   validate: process.argv.includes('--validate'),
   stats: process.argv.includes('--stats'),
-}
+};
 
 if(options.stats && options.validate){
   mdLinks(process.argv[2], options)
@@ -25,13 +26,13 @@ if(options.stats && options.validate){
     `);
   })
   .catch((error) => {
-  console.log(`Erro: não foi possível acessar os links para verificação. ${error}`)
-  })
+  console.log(`Erro: não foi possível acessar os links para verificação. ${error}`);
+  });
 }
 else if(options.stats){
   mdLinks(process.argv[2], options)
   .then((objects)=>{ // cada obj
-    const hrefs = objects.map(obj => obj.href) // cada links de cada obj
+    const hrefs = objects.map(obj => obj.href); // cada links de cada obj
     
     console.log(`
     ${chalk.black.bold('Total')}: ${objects.length} 
@@ -78,7 +79,7 @@ else{
       ${chalk.black.bold('Href')}: ${chalk.cyan(obj.href)}   
       ${chalk.black.bold('Text')}: ${chalk.magenta(obj.text)} 
       ${chalk.black.bold('File')}: ${chalk.white(obj.file)}
-      `))
+      `));
   })
   .catch((error)=>{
     console.log(`Não foi possível fazer a verificação do arquivo. Erro: ${error}`);
