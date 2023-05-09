@@ -23,12 +23,12 @@
   "dependencies": {
     "boxen": "^4.1.0",
     "chalk": "^4.1.2",
-    "eslint": "^8.39.0",
     "jest": "^29.5.0",
     "node-fetch": "^2.6.9"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "deploy": ""
   },
   "author": {
     "name": "Geice Sousa Pinho",
