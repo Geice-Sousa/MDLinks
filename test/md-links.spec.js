@@ -9,7 +9,7 @@ const file = "file.md";
 describe('getInfos', () => {
   it ("should extract the link data from a text", ()=>{
     const string = `[${text}](${href})`; 
-    const infos = getInfos(string, file); 
+    const infos = getInfos(string, file);
 
     expect(infos).toEqual({ href, text, file });
   })

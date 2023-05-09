@@ -67,7 +67,7 @@ else if(options.validate){
     });
   })
   .catch((error)=>{
-    console.log(`Olá, houve um erro na execução do arquivo. Erro: ${error}`); // se passar um link inválido no console cai aqui
+    console.log(`Olá, houve um erro na execução do arquivo. Erro: ${error}`);
   });
 } 
 else{

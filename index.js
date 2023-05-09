@@ -45,9 +45,3 @@ const mdLinks = (pathFile, options)=>{
 }
 
 module.exports = { getInfos, mdLinks }
-
-
-// ESLINT CONFIS
-// "eslint": "eslint --ext .js src/ test/",
-//     "stylelint": "stylelint --aei src/**/*.css",
-//     "pretest": "npm run htmlhint && npm run eslint && npm run stylelint",
