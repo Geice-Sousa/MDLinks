@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [ ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "semi": ["warn", "always", { "omitLastInOneLineClassBody": true, "omitLastInOneLineBlock": true}],
+        "no-unused-vars": "off",
+        "no-unexpected-multiline": "error"
+    }
+}

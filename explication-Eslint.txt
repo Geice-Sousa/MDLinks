@@ -1,0 +1,46 @@
+  package.json:
+  "lint": "npx eslint .MDLinks"
+  
+  "rules": {
+     aqui estarão as regras
+     files:[arqv que terão essas regras] e ignores:[arqv que nãoterao as regras] passamos como valores os caminhos e extensão
+        "semi":"error", são 3 valores, com esse eu digo que as regras geram erros, com warn eu digo que são porblemas
+
+        max-lines": ["warn", { "max": 400, "skipBlankLines": true, "skipComments": true }] comentarios de linhas em branco
+        
+    }
+    
+    VER
+        // enable additional rules
+        "indent": ["error", 4], indentaçã
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"],
+        "no-undef": 0,
+
+        // override configuration set by extending "eslint:recommended"
+        "no-empty": "warn",
+        "no-cond-assign": ["error", "always"],
+
+        // disable rules from base configurations
+         "for-direction": "off",
+
+       // override default options
+        "comma-dangle": ["error", "always"],
+        "indent": ["error", 2], indentação
+        "no-cond-assign": ["error", "always"],
+
+        // disable now, but enable in the future
+        "one-var": "off", // ["error", "never"]
+
+        // disable
+        "init-declarations": "off",
+        "no-console": "off",
+        "no-inline-comments": "off",
+
+----
+// ESLINT CONFIS
+// "eslint": "eslint --ext .js src/ test/",
+// "eslint": ou "eslint --fix --ext .js src/ test/",
+//     "stylelint": "stylelint --aei src/**/*.css",
+//     "pretest": "npm run htmlhint && npm run eslint && npm run stylelint",

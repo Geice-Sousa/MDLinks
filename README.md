@@ -199,20 +199,6 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
   * [Path - Documentação oficial (em inglês)](https://nodejs.org/api/path.html)
 </p></details>
 
-### Controle de Versões (Git e GitHub)
-
-- [ ] **Git: Instalação e configuração**
-
-- [ ] **Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)**
-
-- [ ] **Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)**
-
-- [ ] **GitHub: Criação de contas e repositórios, configuração de chave SSH**
-
-- [ ] **GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)**
-
-- [ ] **GitHub: Organização pelo Github (projects | issues | labels | milestones | releases)**
-
 ### HTTP
 
 - [ ] **Consulta ou solicitação (request) e resposta (response).**
