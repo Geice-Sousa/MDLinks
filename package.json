@@ -1,5 +1,5 @@
 {
-  "name": "md-links",
+  "name": "md-links-geice-sousa-pinho",
   "version": "0.1.0",
   "description": "api para identificar links em arquivos markdown, irá informar se o link esta funcionando ou quebrado",
   "keywords": [
@@ -29,7 +29,7 @@
   "scripts": {
     "test": "jest",
     "deploy": " "
-    
+
   },
   "author": {
     "name": "Geice Sousa Pinho",
