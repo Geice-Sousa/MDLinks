@@ -17,14 +17,14 @@ Os arquivos `Markdown` normalmente contém _links_ que podem estar quebrados, ou
   ### 📋 Ao instalar você tem quatro opções de uso:
 <br>
 
-   - #### 1) md-links ```<caminho do arquivo> ``` consegue verificar os links, seus títulos e o arquivo;
+   - #### 1) md-links ```<caminho do arquivo> ``` consegue verificar os links, seus títulos e o arquivo:
         * href: URL encontrada
         * text: Legenda do link
         * file: Caminho do arquivo do link
 
       <br>
 
-   - #### 2) md-links ```<caminho do arquivo> ``` -- validate, consegue verificar quais tão funcionando e quais estão quebrados;
+   - #### 2) md-links ```<caminho do arquivo> ``` -- validate, consegue verificar quais tão funcionando e quais estão quebrados:
         * href: URL encontrada
         * text: Legenda do link
         * file: Caminho do arquivo do link
@@ -33,13 +33,13 @@ Os arquivos `Markdown` normalmente contém _links_ que podem estar quebrados, ou
 
       <br>
 
-  - #### 3) md-links ```<caminho do arquivo>``` --stats, consegue ver o total de itens e links;
+  - #### 3) md-links ```<caminho do arquivo>``` --stats, consegue ver o total de itens e links:
       * Total: 3
       * Unique: 3
 
   <br>
 
-   - #### 4) md-links ```<caminho do arquivo> ``` -- validate --stats, consegue verificar o total de itens e fdesses quantos estão quebrados.
+   - #### 4) md-links ```<caminho do arquivo> ``` -- validate --stats, consegue verificar o total de itens e desses quantos estão quebrados:
         * Total: 3
         * Unique: 3
         * Broken: 1
@@ -52,24 +52,16 @@ Os arquivos `Markdown` normalmente contém _links_ que podem estar quebrados, ou
   * [how-to-npm](https://github.com/workshopper/how-to-npm)
   * [promise-it-wont-hurt](https://github.com/stevekane/promise-it-wont-hurt)
 
-<!-- TIRAR
-* [ ] Implementa suporte para diretórios
-
-* [ ] Os testes unitários devem cobrir no mínimo 70% dos statements, functions, lines e branches.
-
-* O seu módulo deve ser instalável via `npm install <github-user>/md-links`. -->
-
 <br>
 
 ## 👩🏾‍💻 Tecnologias
-  - HTML
-  - CSS
   - JavaScript
   - Git e GitHub
   - NodeJs
+  - Jest
 
 ### 👩🏾‍💼 💼 [Clique para ver todos os repositórios](https://github.com/Geice-Sousa?tab=repositories)
 
-### 👩🏾‍💼 🎯 [Clique para baixar a API no site do npm]()
+### 👩🏾‍💼 🎯 [Clique para baixar a API no site do npm](https://www.npmjs.com/package/md-links-geice-sousa-pinho)
 
 <br>
